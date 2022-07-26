@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.5.22)  26 JUN 2022 21:03
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.5.22)  26 JUL 2022 13:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -237,6 +237,74 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
 \Hy@SectionHShift=\skip59
 ) (/usr/local/texlive/2022/texmf-dist/tex/latex/tools/indentfirst.sty
 Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2021/10/28 v1.9b multicolumn formatting (FMi)
+\c@tracingmulticols=\count295
+\mult@box=\box60
+\multicol@leftmargin=\dimen168
+\c@unbalance=\count296
+\c@collectmore=\count297
+\doublecol@number=\count298
+\multicoltolerance=\count299
+\multicolpretolerance=\count300
+\full@width=\dimen169
+\page@free=\dimen170
+\premulticols=\dimen171
+\postmulticols=\dimen172
+\multicolsep=\skip60
+\multicolbaselineskip=\skip61
+\partial@page=\box61
+\last@line=\box62
+\maxbalancingoverflow=\dimen173
+\mult@rightbox=\box63
+\mult@grightbox=\box64
+\mult@firstbox=\box65
+\mult@gfirstbox=\box66
+\@tempa=\box67
+\@tempa=\box68
+\@tempa=\box69
+\@tempa=\box70
+\@tempa=\box71
+\@tempa=\box72
+\@tempa=\box73
+\@tempa=\box74
+\@tempa=\box75
+\@tempa=\box76
+\@tempa=\box77
+\@tempa=\box78
+\@tempa=\box79
+\@tempa=\box80
+\@tempa=\box81
+\@tempa=\box82
+\@tempa=\box83
+\@tempa=\box84
+\@tempa=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\@tempa=\box91
+\@tempa=\box92
+\@tempa=\box93
+\@tempa=\box94
+\@tempa=\box95
+\@tempa=\box96
+\@tempa=\box97
+\@tempa=\box98
+\@tempa=\box99
+\@tempa=\box100
+\@tempa=\box101
+\@tempa=\box102
+\c@minrows=\count301
+\c@columnbadness=\count302
+\c@finalcolumnbadness=\count303
+\last@try=\dimen174
+\multicolovershoot=\dimen175
+\multicolundershoot=\dimen176
+\mult@nat@firstbox=\box103
+\colbreak@box=\box104
+\mc@col@check@num=\count304
 )
 
 Package fontspec Warning: Bad colour declaration "black". Colour must be one
@@ -286,34 +354,34 @@ Package fontspec Info: Font family 'TimesNewRoman(0)' created for font 'Times
 (fontspec)             Roman/BI/OT:script=latn;language=dflt;"
 (fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
 
-Package hyperref Info: Option `colorlinks' set `true' on input line 27.
+Package hyperref Info: Option `colorlinks' set `true' on input line 28.
 (./CV.aux)
 \openout1 = `CV.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 29.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 29.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 30.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 30.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -355,57 +423,57 @@ Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
 
 \symlegacymaths=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 29.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 29.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 29.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 29.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 29.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 29.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 29.
-LaTeX Font Info:    Redeclaring math accent \check on input line 29.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 29.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 29.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 29.
-LaTeX Font Info:    Redeclaring math symbol \colon on input line 29.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 29.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 29.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 29.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 29.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 29.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 29.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 29.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 29.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 29.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 29.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 29.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 29.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 29.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 30.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 30.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 30.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 30.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 30.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 30.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 30.
+LaTeX Font Info:    Redeclaring math accent \check on input line 30.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 30.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 30.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 30.
+LaTeX Font Info:    Redeclaring math symbol \colon on input line 30.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 30.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 30.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 30.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 30.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 30.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 30.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 30.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 30.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 30.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 30.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 30.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 30.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 30.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 29.
+(Font)              `operators' in the math version `normal' on input line 30.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 29.
+(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 30.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 29.
+(Font)              `operators' in the math version `bold' on input line 30.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 29.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 30.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 29.
+(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 30.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 29.
+(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 30.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 29.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 30.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 29.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 30.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 29.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 30.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 29.
+(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 30.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/lmr/b/it on input line 29.
+(Font)                  OT1/cmr/bx/it --> TU/lmr/b/it on input line 30.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 29.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 30.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 29.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 30.
 (/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2021/12/07 v1.3c Standard LaTeX Color (DPC)
  (/usr/local/texlive/2022/texmf-dist/tex/latex/graphics-cfg/color.cfg
@@ -415,7 +483,7 @@ Package color Info: Driver file: xetex.def on input line 149.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/graphics-def/xetex.def
 File: xetex.def 2021/03/18 v5.0k Graphics/color driver for xetex
 ))
-Package hyperref Info: Link coloring ON on input line 29.
+Package hyperref Info: Link coloring ON on input line 30.
  (/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
  (/usr/local/texlive/2022/texmf-dist/tex/latex/refcount/refcount.sty
@@ -423,11 +491,11 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 ) (/usr/local/texlive/2022/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count295
+\c@section@level=\count305
 )
-LaTeX Info: Redefining \ref on input line 29.
-LaTeX Info: Redefining \pageref on input line 29.
-LaTeX Info: Redefining \nameref on input line 29.
+LaTeX Info: Redefining \ref on input line 30.
+LaTeX Info: Redefining \pageref on input line 30.
+LaTeX Info: Redefining \nameref on input line 30.
  (./CV.out) (./CV.out)
 \@outlinefile=\write3
 \openout3 = `CV.out'.
@@ -453,138 +521,134 @@ Package fontspec Info: Font family 'TimesNewRoman(1)' created for font 'Times
 (fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
 
 
-Overfull \hbox (3.15457pt too wide) in paragraph at lines 56--56
+Overfull \hbox (3.15457pt too wide) in paragraph at lines 57--57
 []|$\OMS/cmsy/m/n/12 ^^N$| 
  []
 
 
-Overfull \hbox (3.15457pt too wide) in paragraph at lines 56--56
+Overfull \hbox (3.15457pt too wide) in paragraph at lines 57--57
 []|$\OMS/cmsy/m/n/12 ^^N$| 
  []
 
 
-Overfull \hbox (3.15457pt too wide) in paragraph at lines 56--56
+Overfull \hbox (3.15457pt too wide) in paragraph at lines 57--57
 []|$\OMS/cmsy/m/n/12 ^^N$| 
  []
 
 
-Overfull \hbox (3.15457pt too wide) in paragraph at lines 56--56
+Overfull \hbox (3.15457pt too wide) in paragraph at lines 57--57
 []|$\OMS/cmsy/m/n/12 ^^N$| 
  []
 
 
-Overfull \hbox (3.15457pt too wide) in paragraph at lines 98--98
+Overfull \hbox (3.15457pt too wide) in paragraph at lines 99--99
 []|$\OMS/cmsy/m/n/12 ^^N$| 
  []
 
 
-Overfull \hbox (3.15457pt too wide) in paragraph at lines 98--98
+Overfull \hbox (3.15457pt too wide) in paragraph at lines 99--99
 []|$\OMS/cmsy/m/n/12 ^^N$| 
  []
 
 
-Overfull \hbox (3.15457pt too wide) in paragraph at lines 98--98
+Overfull \hbox (3.15457pt too wide) in paragraph at lines 99--99
 []|$\OMS/cmsy/m/n/12 ^^N$| 
  []
 
 
-Overfull \hbox (3.15457pt too wide) in paragraph at lines 98--98
+Overfull \hbox (3.15457pt too wide) in paragraph at lines 99--99
 []|$\OMS/cmsy/m/n/12 ^^N$| 
  []
 
 
-Overfull \hbox (3.15457pt too wide) in paragraph at lines 98--98
+Overfull \hbox (3.15457pt too wide) in paragraph at lines 99--99
 []|$\OMS/cmsy/m/n/12 ^^N$| 
  []
 
 
-Overfull \hbox (3.15457pt too wide) in paragraph at lines 98--98
+Overfull \hbox (3.15457pt too wide) in paragraph at lines 99--99
 []|$\OMS/cmsy/m/n/12 ^^N$| 
  []
 
 
-Overfull \hbox (3.15457pt too wide) in paragraph at lines 98--98
+Overfull \hbox (3.15457pt too wide) in paragraph at lines 99--99
 []|$\OMS/cmsy/m/n/12 ^^N$| 
  []
 
 
-Overfull \hbox (3.15457pt too wide) in paragraph at lines 98--98
+Overfull \hbox (3.15457pt too wide) in paragraph at lines 99--99
 []|$\OMS/cmsy/m/n/12 ^^N$| 
  []
 
 
-Overfull \hbox (3.15457pt too wide) in paragraph at lines 98--98
+Overfull \hbox (3.15457pt too wide) in paragraph at lines 99--99
 []|$\OMS/cmsy/m/n/12 ^^N$| 
  []
 
 
-Overfull \hbox (3.15457pt too wide) in paragraph at lines 98--98
+Overfull \hbox (3.15457pt too wide) in paragraph at lines 99--99
 []|$\OMS/cmsy/m/n/12 ^^N$| 
  []
 
 
-Overfull \hbox (3.15457pt too wide) in paragraph at lines 98--98
+Overfull \hbox (3.15457pt too wide) in paragraph at lines 99--99
 []|$\OMS/cmsy/m/n/12 ^^N$| 
  []
 
 
-Overfull \hbox (3.15457pt too wide) in paragraph at lines 98--98
+Overfull \hbox (3.15457pt too wide) in paragraph at lines 99--99
 []|$\OMS/cmsy/m/n/12 ^^N$| 
  []
 
 
-Overfull \hbox (3.15457pt too wide) in paragraph at lines 98--98
+Overfull \hbox (3.15457pt too wide) in paragraph at lines 99--99
 []|$\OMS/cmsy/m/n/12 ^^N$| 
  []
 
 
-Overfull \hbox (3.15457pt too wide) in paragraph at lines 98--98
+Overfull \hbox (3.15457pt too wide) in paragraph at lines 99--99
 []|$\OMS/cmsy/m/n/12 ^^N$| 
  []
 
 
-Overfull \hbox (3.15457pt too wide) in paragraph at lines 98--98
+Overfull \hbox (3.15457pt too wide) in paragraph at lines 99--99
 []|$\OMS/cmsy/m/n/12 ^^N$| 
  []
 
 
-Overfull \hbox (3.15457pt too wide) in paragraph at lines 98--98
+Overfull \hbox (3.15457pt too wide) in paragraph at lines 117--117
 []|$\OMS/cmsy/m/n/12 ^^N$| 
  []
 
 
-Overfull \hbox (3.15457pt too wide) in paragraph at lines 98--98
+Overfull \hbox (3.15457pt too wide) in paragraph at lines 117--117
 []|$\OMS/cmsy/m/n/12 ^^N$| 
  []
 
 
-Overfull \hbox (3.15457pt too wide) in paragraph at lines 114--114
-[]|$\OMS/cmsy/m/n/12 ^^N$| 
- []
-
-
-Overfull \hbox (3.15457pt too wide) in paragraph at lines 114--114
-[]|$\OMS/cmsy/m/n/12 ^^N$| 
- []
-
-
-Overfull \hbox (3.15457pt too wide) in paragraph at lines 114--114
+Overfull \hbox (3.15457pt too wide) in paragraph at lines 117--117
 []|$\OMS/cmsy/m/n/12 ^^N$| 
  []
 
 [1
 
-] [2] (./CV.aux)
+]
+Overfull \vbox (3.56902pt too high) has occurred while \output is active []
+
+
+Overfull \vbox (3.56902pt too high) has occurred while \output is active []
+
+ [2] (./CV.aux)
 Package rerunfilecheck Info: File `CV.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 11235 strings out of 476179
- 228809 string characters out of 5809544
- 605812 words of memory out of 5000000
- 31857 multiletter control sequences out of 15000+600000
+ 11371 strings out of 476179
+ 231145 string characters out of 5809544
+ 610775 words of memory out of 5000000
+ 31990 multiletter control sequences out of 15000+600000
  472515 words of font info for 58 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 73i,9n,94p,335b,316s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 73i,9n,94p,317b,348s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on CV.pdf (2 pages).
