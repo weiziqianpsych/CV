@@ -1,0 +1,389 @@
+\documentclass[a4paper, 10pt]{article}
+\usepackage{geometry}
+\usepackage{fontspec}
+\usepackage{tabularx}
+\usepackage{multirow}
+\usepackage{longtable}
+\usepackage{titlesec}
+\usepackage{hyperref}
+\usepackage{indentfirst}
+\usepackage{multicol}
+\usepackage{fancyhdr}
+\usepackage{xcolor}
+\usepackage{setspace}
+\usepackage{graphicx}
+\usepackage{makeidx} % auto index
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% customized setting
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% set the basic style
+\setmainfont{Arial}  % font style
+\geometry{a4paper,left=1in,right=1in,top=1in,bottom=1in}  % 1 inch margins
+\raggedright  % left alignment
+\onehalfspacing  % 1.5 line spacing
+
+% add a line on the top of the title of each section
+\titleformat{\subsection}{\large\bfseries}{\thesection}{1em}{\hrule height 0.02in}
+
+% colours of hypelinks
+\hypersetup{colorlinks=true, linkcolor=blue, filecolor=blue, urlcolor=blue, citecolor=cyan}
+
+% a function to update the date information automatically
+\renewcommand{\today}{\ifcase \month \or January\or February\or March\or %
+April\or May \or June\or July\or August\or September\or October\or November\or December\fi, \number \year} 
+
+% header style
+\thispagestyle{fancy}  % use customized header style
+\fancyhf[hl]{\textit{\today}}  % print datem location = hl (h = head, l = left)
+\renewcommand{\headrulewidth}{0pt} % remove the horizontal line on the top
+
+% Define a counter for the indices
+\newcounter{indexcounter}
+% Define a command that increments the counter and adds the index
+\newcommand{\autoindex}[1]{%
+    \stepcounter{indexcounter}% Increment the counter
+    \noindent\hangindent=2.5em% Set hanging indent
+    \makebox[2.3em][l]{[\theindexcounter]}% Create a box for the index number and space it out
+    \index{#1@[{\theindexcounter}] #1}% Add the entry to the index
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% title
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+\centerline{\large{\bf{Ziqian WEI}} }  % (he/his/him)
+% \centerline{\textbf{Tel}: +86 18679651087, +852 55323213}
+\centerline{\textbf{Email}: \href{mailto: ziqian.wei@outlook.com}{ziqian.wei@outlook.com}}
+\centerline{\textbf{ORCID}: \href{https://orcid.org/0009-0005-1352-887X}{https://orcid.org/0009-0005-1352-887X}}
+% \centerline{\textbf{Address}: Room E-LP1-02 No.6, The Education University of Hong Kong,}
+% \centerline{10 Lo Ping Road, Tai Po, New Territories, Hong Kong SAR, China}
+
+\bigskip
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% interest
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection*{Research interests}
+
+$\bullet$\hspace{1.8em} Cognitive mechanisms of reading comprehension and their impact on educational practices \\
+$\bullet$\hspace{1.8em} Language and literacy development and related difficulties in children and adolescents \\
+$\bullet$\hspace{1.8em} Reading behaviour in broader contexts (e.g., how social media reading relates to mental health)
+
+\bigskip
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% education
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection*{Education}
+
+\textbf{South China Normal University} \hfill \textit{Sep 2019 - Jun 2022} \\
+$\bullet$\hspace{1.8em} Master of Education in Basic Psychology \\
+% $\bullet$\hspace{1em} Master of Education in Basic Psychology \\
+$\bullet$\hspace{1.8em} GPA: 3.54/4.00 \\
+% $\bullet$\hspace{1em} Majored in Basic Psychology (GPA: 3.54/4.00) \\
+% $\bullet$ Researched in reading comprehension. \\
+% $\bullet$\hspace{1em} Advised by Dr. Xuqian Chen
+% SCNU Children and Adolescents' Reading and Development Laboratory
+% $\bullet$ GPA: 3.54/4.00 \\
+% $\bullet$ Researched in reading comprehension, supervised by Assoc. Prof. Xuqian Chen \\
+% $\bullet$ Conducted research as a member of \textit{the Philosophy and Social Science Laboratory of Reading and Development in Children and Adolescents} \\
+
+\bigskip
+
+\textbf{Jiangxi Normal University} \hfill \textit{Sep 2015 - Jun 2019} \\
+$\bullet$\hspace{1.8em} Bachelor of Science in Psychology \\
+$\bullet$\hspace{1.8em} GPA: 3.33/4.00 \\
+% $\bullet$ GPA: 3.33/4.00 (four years), 3.48/4.00 (recent two years) \\
+
+\bigskip
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% work experience
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection*{Work experience}
+
+\textbf{Education University of Hong Kong} \hfill \textit{Jan 2023 - Present} \\
+$\bullet$\hspace{1.8em} Research Assistant (Full-Time), Dr. Phil Duo Liu's Lab \\
+% $\bullet$ Full-time: Jan - Dec 2023; Part-time (remote): Jan 2024-now \\
+
+\bigskip
+
+\textbf{Tsinghua University} \hfill \textit{Jul - Nov 2022} \\
+$\bullet$\hspace{1.8em} Research Assistant (Full-Time), Dr. Runshen Chen's lab \\
+% $\bullet$ Worked at the Youth Mental Health Lab, Vanke School of Public Health
+
+\bigskip
+
+\textbf{South China Normal University} \hfill \textit{Mar - Jun 2021} \\
+$\bullet$\hspace{1.8em} Teaching Assistant (Part-Time) \\
+% $\bullet$\hspace{1.8em} TA for three undergraduate modules: \textit{Psychological Statistics, Principles and Applications of Psychometrics}, and \textit{Statistical Software Applications} \\
+
+\bigskip
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% research experience
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection*{Research experience}
+
+% \textbf{1 Langauge and Reading} \\
+
+% \textit{Note}. Only projects relating to language and reading are listed. \\
+
+% \textbf{NOTE: Only Language and Reading Development Studies} \\
+
+% \bigskip
+
+% \textbf{Language Development and Physical Health} \\
+% \textit{Research Assistant, EdUHK \hfill Jul 2023 - now} \\
+% $\bullet$ This project aims to explore the associations among language, cognitive, and physical indicators in kindergarten children \\
+% $\bullet$ Programmed five behavioural experiments for data collection for a pilot study
+
+% \bigskip
+
+\textbf{Fragmentary reading and short video browsing on social media} \\
+\textit{Research collaborator, Guangzhou University \hfill Aug 2024 - Present} \\
+$\bullet$\hspace{1.8em} 
+Developing a research concept to investigate how social media reading and video browsing \\ \indent\hspace{2.3em} relate to mental health and academic achievement in Chinese secondary and high school \\ \indent\hspace{2.3em} students \\ 
+
+\bigskip
+
+\textbf{Literacy Difficulties in Primary School Children: A Transdiagnostic Perspective} \\
+\textit{Research Assistant, Education University of Hong Kong \hfill Feb 2023 - Present} \\
+$\bullet$\hspace{1.8em} Conducted an empirical study using psychological network modelling to explore the \\ \indent\hspace{2.3em} interconnected pattern between reading-related cognitive and ecological factors in Chinese \\ \indent\hspace{2.3em} first-grade children \\
+$\bullet$\hspace{1.8em} Coordinated data collection at local primary schools \\
+%  using psychological network analysis
+% $\bullet$ The results showed different connection patterns between good and poor readers \\
+% $\bullet$ Preparing for the next study using the newly collected data and machine learning technique \\
+
+% \bigskip
+
+\pagebreak
+
+\textbf{Adolescent Health Enhancing Long-term Plan (A-HELP)} \\ 
+\textit{Research assistant, Tsinghua University \hfill Sep 2022 - Nov 2022} \\
+$\bullet$\hspace{1.8em} Prepared materials for a mini app and assisted with data collection and follow-up interviews to  \\ \indent\hspace{2.3em} investigate how online interventions support emotional regulation during the pandemic \\
+$\bullet$\hspace{1.8em} Prepared questionnaires and coordinated data collection for a cohert study in southern China, for  \\ \indent\hspace{2.3em} which I was responsible for thirteen schools with over 4,500 students \\
+$\bullet$\hspace{1.8em} Collaborated with postdocs on research by contributing to data analysis and drafting \\
+
+\bigskip
+
+% \pagebreak
+
+% \bigskip
+
+% \textbf{Conceptual Interests and Reading Comprehension} \\
+% \textit{Co-Researcher, SCNU \hfill Mar 2023 - now} \\
+% $\bullet$ This project aims to cluster students with different reading skills via a latent profile model \\
+% $\bullet$ Drafted a proposal and received funding from the School of Psychology, SCNU \\
+% $\bullet$ Leading the project, cooperating with a Master student to analyse data \\
+
+% \bigskip
+
+\textbf{The Effects of External Supports on Multiple Text Comprehension} \\
+\textit{Master's thesis, South China Normal University \hfill Jun 2021 - Jun 2022} \\
+$\bullet$\hspace{1.8em} Conducted three behavioural experiments with over 300 participants to explore how external \\ \indent\hspace{2.3em} supports, such as reading goal instructions, concept mapping, and summary writing, affect  \\ \indent\hspace{2.3em} college students' knowledge integration when learning from multiple texts \\
+$\bullet$\hspace{1.8em} Found that the quantity of integration can be enhanced by external supports, but not the quality \\
+% $\bullet$ Analysed knowledge structure data via a self-made Python package \\ %\href{https://cookiemilk-tutorial.readthedocs.io/en/latest/Part%201%20Introduction.html}{[Link]} 
+% $\bullet$ Found that the quantity of integration can be enhanced by external cues, but not the quality \\
+
+\bigskip
+
+% \textbf{External Conceptual Representation Affects History Learning} \\
+% \textit{Master's researcher, SCNU \hfill Jun 2021 - Jun 2022} \\
+% $\bullet$ Contributed to data collection and statistical analysis \\
+% $\bullet$ Found that concept maps lead to better reading comprehension than outlines in poor \\ \indent \ \ \ students when re-learning history knowledge \\
+
+% \bigskip
+
+% \bigskip
+
+% \textbf{2 Mental Health} \\
+
+% \bigskip
+
+% \textbf{The Risk and Protective Factors of Mental Health} \\
+% \textit{Research assistant / Co-researcher, TU \hfill Jul 2022 - now} \\
+% $\bullet$ Cooperated with post-docs to conduct studies by contributing to data analysis and drafting \\
+
+% \bigskip
+
+% \textbf{Adolescent Health Enhancing Long-term Plan (A-HELP)} \\ 
+% \textit{Research assistant, TU \hfill Sep 2022 - Nov 2022} \\
+% $\bullet$ Worked in a team to prepare materials and coordinate data collection at numerous schools \\ \indent \ \ \ in a Chinese southern area (Note: I was responsible for thirteen schools, including 4,500+ \\ \indent \ \ \ students) \\
+
+% \bigskip
+
+% \textbf{A psychotic-like experiences (PLEs) project | co-researcher, TU}
+% \hfill
+% \textit{Feb 2023 - now} \\
+% \indent $\circ$ This project aims to explore the early emotional and cognitive characteristics in 9 to 10 \\
+% \indent \ \ \ years old children with different types of PLEs \\
+% \indent $\circ$ Working on data cleaning of \href{https://abcdstudy.org}{the ABCD dataset} and statistical analysis \\
+
+% \noindent \textbf{Relationships between digital self-harm and suicidality | co-researcher, TU}
+% \hfill
+% \textit{Feb 2023 - now} \\
+% \indent $\circ$ Performed logistic and linear regressions, and contributed to drafting and proofreading \\
+% \indent $\circ$ Found that people with both digital and physical self-harm history have a higher risk of \\
+% \indent \ \ \ suicidal thoughts and behaviours \\
+
+% \noindent \textbf{Parents' marriage quality: Association with children's mental health | RA, TU}
+% \hfill
+% \textit{2022} \\
+% \indent $\circ$ Performed multinominal logistic regression and contributed to proofreading \\
+% \indent $\circ$ Found that types of marriage quality predict children's mental health outcomes \\
+
+% \noindent \textbf{Self-harm functions: A cross-sectional network analysis | RA, TU}
+% \hfill
+% \textit{2022} \\
+% \indent $\circ$ Cooperated with a postdoc researcher to generate the research idea \\
+% \indent $\circ$ Worked on data cleaning, statistical analysis, drafting and proofreading \\
+% \indent $\circ$ Found that parental rearing style relates to self-harm functions and the ideation of seek- \\
+% \indent \ \ \ ing help from adults, and "parent" is an important bridge in the network \\
+
+% \noindent \textbf{A digital intervention research using cognitive behaviour therapy | RA, TU}
+% \hfill
+% \textit{2022} \\
+% \indent $\circ$ Contributed to intervention materials preparation and data collection \\
+% \indent $\circ$ Found that a fortnight digital intervention significantly reduces emotional symptoms \\
+
+% \bigskip
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% publications
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection*{Publications}
+
+*: contributed equally; \#: corresponding author
+
+\bigskip
+
+\textbf{Manuscripts under review or in preparation}
+
+\autoindex{} Li, Q*, \textbf{Wei, Z*\#}., Xu, Z., Zhang, S., \& Liu, D\#. (Under review). Psychological and ecological factors predict subsequent reading interest in Chinese primary children: A two-year investigation. \\
+\autoindex{} \textbf{Wei, Z}., Yin, S., Clariana, R. B\#., \& Chen, X\#. (Under review). The influence of pre-reading purpose and extra-textual networks with summary writing on multiple document concept network integration: A replication of Wei et al. (2023). \\
+\autoindex{} \textbf{Wei, Z}., Chen, X\#., \& Clariana, R., B. (Under review). The cognitive mechanism of multiple document comprehension: Current trends in theories (in Chinese).  \\
+\autoindex{} Jia, L*., \textbf{Wei, Z*}., Yu, M., Zhang, X., He, X., Xi, Y., Chen, R\#., \& Zhang, X\#. (Revised and Resubmitted). The developmental and dynamic relationship between psychopathology and psychotic-like experiences trajectories in children and adolescents.  \\
+\autoindex{} Wang, J., He, Y., Li, X., Du, X., \textbf{Wei, Z}., Wang, Y., Lei, T., Zhu, D., Chen, R., \& Zhou, X\#. (Revised and Resubmitted). Stay in loveless marriage relates to children's psychopathology: a large-scale cross-sectional study.  \\
+
+\bigskip
+
+\textbf{Published articles}
+
+\autoindex{} \textbf{Wei, Z}., Wang, L., Xu, Z., Luo, L., Zhang, X., Li, N., \& Liu, D\#. (Accepted). The global and local pattern of reading-related cognitive and ecological factors in Chinese first-grade children: A cross-sectional network analysis. \textit{Journal of Learning Difficulties}.
+
+\autoindex{} \textbf{Wei, Z}., Zhang, Y., Clariana, R. B\#., \& Chen, X\#. (2024). The effects of reading prompts and of post-reading generative learning tasks on multiple document integration: Evidence from concept network analysis. \textit{Educational Technology Research and Development}, \textit{72}, 661–685. \href{https://doi.org/10.1007/s11423-023-10326-w}{https://doi.org/10.1007/s11423-023-10326-w}
+
+\autoindex{} Jia, L*., \textbf{Wei, Z*}., Zhang, X., Wen, X., Wang, J., Zhang, X\#., \& Chen, R\#. (2024). The associations between baseline characteristics and different developmental trajectories of psychotic-like experiences in children and adolescents. \textit{Brain Research}, \textit{1832}, 148853. \href{https://doi.org/10.1016/j.brainres.2024.148853}{https://doi.org/10.1016/j.brainres.2024.148853}
+
+\autoindex{} Wang, J*., \textbf{Wei, Z*}., Jia, L*., Yu, J., Wang, Y., Meng, Y., Feng, Y\#., \& Chen, R\#. (2024). Can digital self-harm beyond traditional non-suicidal self-injuries predict suicide risk? \textit{Acta Psychiatrica Scandinavica}, \textit{149(3)}, 256-266. \href{http://doi.org/10.1111/acps.13658}{http://doi.org/10.1111/acps.13658}
+
+\autoindex{} Qu, D*., Liu, D*., Cai, C*., Zhang, X., Yu, J., Zhang, Q., Liu, K., \textbf{Wei, Z}., Tan, J., Cui, Z., Zhang, X\#., \& Chen, R\#. (2023). Process model of emotion regulation-based digital intervention for emotional problems. \textit{Digit Health}, \textit{9}. \href{https://doi.org/10.1177/20552076231187476}{https://doi.org/10.1177/20552076231187476}
+
+\autoindex{} Chen, X., \textbf{Wei, Z}., Li, Z., \& Clariana, R. B\#. (2023). The influence of the conceptual structure of external representations when relearning history content. \textit{Educational Technology Research and Development}, \textit{71}, 415–439. \href{https://doi.org/10.1007/s11423-022-10176-y}{https://doi.org/10.1007/s11423-022-10176-y}
+
+\autoindex{} \textbf{Wei, Z}., Chen, X\#., \& Clariana, R., B. (2022). Measures of knowledge structure in reading comprehension. \textit{Journal of Psychological Science (in Chinese)}, \textit{45}(2), 306-315. \href{https://link.oversea.cnki.net/doi/10.16719/j.cnki.1671-6981.20220206}{https://doi.org/10.16719/j.cnki.1671-6981.20220206}
+
+\bigskip
+
+% \bigskip
+
+% \textbf{Conference articles}
+
+% \autoindex{}  \textbf{Wei, Z}., Zhang, Y., Yin, S., Chen, X.*, Clariana, R. B. (2022). Richer external cues before reading, better integration of multiple documents maintaining in memory: Evidence from concept network analysis. \textit{The 24th National Academic Conference of Psychology}. China: Henan Normal University.
+
+% % %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% % % research experience
+% % %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% % \subsection*{ADDITIONAL ACADEMIC ACTIVITIES}
+
+% % \textbf{Peer reviewer}: \textit{Acta Psychologia} \\
+
+% % \bigskip
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% skills
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection*{Skills}
+
+$\bullet$\hspace{1.8em} Software: R, Python, MATLAB, SPSS, JASP, Mplus, E-Prime, EndNote \\
+% VS Code, LaTeX, 
+
+% R (proficient), Python (proficient), MATLAB (good), SPSS (good), E-Prime (good), Mplus (basic), Microsoft Words, Excel \& PowerPoint (proficient), LaTeX (good), EndNote (good), VS Code (basic), JASP (basic)
+
+$\bullet$\hspace{1.8em} Statistics: Linear (Mixed) Models, ANOVA, Latent Models, Network Analysis \\
+% Machine Learning, Psychopathological  Linear Mixed Models,
+
+$\bullet$\hspace{1.8em} Language: English (IELTS: 6.5 overall), Mandarin (native), Cantonese (beginner) \\
+
+\bigskip
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% selected honours and awards
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\subsection*{Honours \& Awards}
+
+% Third-Class Merit Scholarship (SCNU, 2020-2021) \\
+% https://psy.scnu.edu.cn/a/20191211/1893.html
+$\bullet$\hspace{1.8em} Second-Class Merit Scholarship (South China Normal University, Sep 2020) \\
+$\bullet$\hspace{1.8em} Funding for Innovative Research Projects for Graduates, School of Psychology (General Project, \\ \indent\hspace{2.3em} No. hsxly2019025) (South China Normal University, Dec 2019)\\
+% (General Project No. hsxly2019025) 
+% Third-Class Merit Scholarship (JNU, 2019) \\
+
+\bigskip
+
+% \pagebreak
+
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% % ad hoc reviewer
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \subsection*{Ad Hoc Reviewer}
+% Acta Psychologica.
+
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% % referees
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \subsection*{REFEREES} 
+
+% \textit{Note}. In alphabetical order.
+
+% \bigskip
+
+% \textbf{Xuqian Chen (Master's supervisor)} \\
+% Associate Professor, School of Psychology, South China Normal University \\
+% Email: \href{mailto: chenxuqian@m.scnu.edu.cn}{chenxuqian@m.scnu.edu.cn} \\
+% Research interest: language and cognition; concept structure in memory \\
+
+% \bigskip
+
+% \textbf{Luxia Jia} \\
+% Assistant Professor, Department of Psychology, Guangzhou University \\
+% Email: \href{mailto: jlx809279158@126.com}{jlx809279158@126.com}; \href{mailto: lxjia@mail.tsinghua.edu.cn}{lxjia@mail.tsinghua.edu.cn}  \\
+% Research interest: emotion and cognition in children and adolescents \\
+
+% \bigskip
+
+% \textbf{Phil Duo Liu} \\
+% Associate Professor, Education University of Hong Kong \\
+% Email: \href{mailto: duoliu@eduhk.hk}{duoliu@eduhk.hk} \\
+% Research interest: language and literacy development and difficulties \\
+
+% \bigskip
+
+% \textbf{Aitao Lu} \\
+% Professor, School of Psychology, South China Normal University \\
+% Email: \href{mailto: atlupsy@gmail.com}{atlupsy@gmail.com} \\
+% Research interest: language and cognition; adolescent development \\
+
+% \noindent \textbf{Prof. Joep van der Graaf} \\
+% Behavioural Science Institute, Radboud University \\
+% Email: \href{mailto: joep.vandergraaf@ru.nl}{joep.vandergraaf@ru.nl} \\
+% Research interest: inquiry-based learning \\
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% end
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{document}
